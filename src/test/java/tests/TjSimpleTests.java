@@ -17,7 +17,7 @@ public class TjSimpleTests extends TestBase {
     @Test
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
-    @DisplayName("Новостная лента должна быть видна на главной странице и кликабельна")
+    @DisplayName("Проверка новостной ленты на главной странице")
     void newsFeedShouldBeVisibleAndClickable() {
         String label = "Новости";
         String paragraph = "Рассказываем все важные новости и объясняем, как они влияют на жизнь";
