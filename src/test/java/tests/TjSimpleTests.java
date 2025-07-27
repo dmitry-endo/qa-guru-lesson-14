@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
 @Tag("tj_simple_tests")
-@DisplayName("Тесты для сайта Т-Ж - t-j.ru")
+@DisplayName("Тесты для сайта Т-Ж")
 public class TjSimpleTests extends TestBase {
 
     private final MainPage mainPage = new MainPage();
