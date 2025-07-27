@@ -1,6 +1,6 @@
 ﻿<p align="center">
   <a href="https://t-j.ru/" target="_blank">
-    <img src="media/tj_logo.svg.png" width="500" alt="TJ Logo">
+    <img src="media/logos/tj_logo.svg.png" width="500" alt="TJ Logo">
   </a>
 </p>
 
@@ -31,15 +31,15 @@ ____
 
 
 <p align="center">  
-<a href="https://www.jetbrains.com/idea/"><img src="media/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>  
-<a href="https://www.java.com/"><img src="media/Java.svg" width="50" height="50"  alt="Java"/></a>  
-<a href="https://github.com/"><img src="media/Github.svg" width="50" height="50"  alt="Github"/></a>  
-<a href="https://junit.org/junit5/"><img src="media/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/></a>  
-<a href="https://gradle.org/"><img src="media/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>  
-<a href="https://selenide.org/"><img src="media/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>  
-<a href="https://aerokube.com/selenoid/"><img src="media/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
-<a href="https://www.jenkins.io/"><img src="media/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
-<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="media/Allure.svg" width="50" height="50"  alt="Allure"/></a> 
+<a href="https://www.jetbrains.com/idea/"><img src="media/logos/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>  
+<a href="https://www.java.com/"><img src="media/logos/Java.svg" width="50" height="50"  alt="Java"/></a>  
+<a href="https://github.com/"><img src="media/logos/Github.svg" width="50" height="50"  alt="Github"/></a>  
+<a href="https://junit.org/junit5/"><img src="media/logos/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/></a>  
+<a href="https://gradle.org/"><img src="media/logos/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>  
+<a href="https://selenide.org/"><img src="media/logos/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>  
+<a href="https://aerokube.com/selenoid/"><img src="media/logos/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
+<a href="https://www.jenkins.io/"><img src="media/logos/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
+<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="media/logos/Allure.svg" width="50" height="50"  alt="Allure"/></a> 
 </p>
 
 - Автотесты написаны в <code>IntelliJ IDEA</code> на языке <code>Java</code> c помощью фреймворков <code>Selenide</code> и <code>JUnit 5</code>.
@@ -61,10 +61,10 @@ ____
 
 ____
 <a id="jenkins"></a>
-## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/></a><a name="Сборка"></a> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C35-dmitry_endo-Lesson14HomeWork/)</a>
+## <img alt="Jenkins" height="25" src="media/logos/Jenkins.svg" width="25"/></a><a name="Сборка"></a> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C35-dmitry_endo-Lesson14HomeWork/)</a>
 ____
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/35-julpro-hw14/"><img src="media/" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/35-julpro-hw14/"><img src="media/results/jenkins_job.png" alt="Jenkins" width="850"/></a>  
 </p>
 
 
@@ -89,13 +89,13 @@ ${TASK}
 ```
 ___
 <a id="allure"></a>
-## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a> <a name="Allure"></a> Allure [отчет](https://jenkins.autotests.cloud/job/C35-dmitry_endo-Lesson14HomeWork/5/allure/)</a>
+## <img alt="Allure" height="25" src="media/logos/Allure.svg" width="25"/></a> <a name="Allure"></a> Allure [отчет](https://jenkins.autotests.cloud/job/C35-dmitry_endo-Lesson14HomeWork/5/allure/)</a>
 ___
 
 ### *Основная страница отчёта*
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/allure_report_screenshot.png" width="850">  
+<img title="Allure Overview Dashboard" src="media/results/allure_report_screenshot.png" width="950">  
 </p>  
 
 **Тест-кейсы** содержат в себе:
@@ -106,27 +106,27 @@ ___
 - Видео прогона автотестов
 
 <p align="center">  
-<img title="Allure Tests" src="media/allure_suites.png" width="850">  
+<img title="Allure Tests" src="media/results/allure_suites.png" width="950">  
 </p>
 
 
 ____
 <a id="telegram"></a>
-## <img alt="Telegram" height="25" src="media/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
+## <img alt="Telegram" height="25" src="media/logos/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
 После завершения тестов: Telegram-бот отправляет уведомление с результатами и статистикой.
 <p align="center">  
-<img title="Telegram Notification" src="media/tg_notification.png" width="550">  
+<img title="Telegram Notification" src="media/results/tg_notification.png" width="550">  
 </p>
 
 ____
 <a id="video"></a>
-## <img alt="Selenoid" height="25" src="media/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
+## <img alt="Selenoid" height="25" src="media/logos/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
 ____
 
 К каждому тесту в отчете прилагается видео его прохождения.
 <p align="center">
-<img title="Selenoid Video" src="media/test_run_video.mp4" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="media/results/test_run_video.gif" width="950"  alt="video">   
 </p>
 
 ___
