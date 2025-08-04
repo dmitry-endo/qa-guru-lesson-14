@@ -26,7 +26,7 @@ public class MainPage {
     private final SelenideElement profileIcon = $("[aria-label='Авторизоваться']");
     private final ElementsCollection headerNavTabs = $$("[aria-label='Основная навигация'] a");
 
-    @Step("Открываем главную страницу (плюс удаляем баннеры)")
+    @Step("Открываем главную страницу")
     public MainPage openPage() {
         open("/");
 

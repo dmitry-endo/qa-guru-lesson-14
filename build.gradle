@@ -1,6 +1,13 @@
 plugins {
     id 'java'
     id 'io.qameta.allure' version '2.12.0'
+    id "io.freefair.lombok" version "8.4"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 group = 'ru.infosec'
@@ -32,12 +39,18 @@ dependencies {
             'com.codeborne:selenide:7.9.1',
             'org.slf4j:slf4j-simple:2.0.7',
             'org.assertj:assertj-core:3.27.3',
-            'io.qameta.allure:allure-selenide:2.29.1'
+            'io.qameta.allure:allure-selenide:2.29.1',
+            "org.aeonbits.owner:owner:1.0.4"
     )
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8' // Fixes Cyrillic/Unicode chars
 }
 
 tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
