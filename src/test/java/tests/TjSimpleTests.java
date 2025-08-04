@@ -18,7 +18,7 @@ public class TjSimpleTests extends TestBase {
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка новостной ленты на главной странице")
-    void newsFeedShouldBeVisibleAndClickable() {
+    void newsFeedShouldBeVisibleAndClickableTest() {
         String label = "Новости";
         String paragraph = "Рассказываем все важные новости и объясняем, как они влияют на жизнь";
 
@@ -32,7 +32,7 @@ public class TjSimpleTests extends TestBase {
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка появления модального окна входа в профиль")
-    void loginModalWindowShouldAppear() {
+    void loginModalWindowShouldAppearTest() {
 
         mainPage.openPage()
                 .loginModalWindowShouldNotBeVisible()
@@ -44,7 +44,7 @@ public class TjSimpleTests extends TestBase {
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка названия и количества основных вкладок навигации в хедере")
-    void headerNavigationTabsShouldHaveExactLabelsAndSize() {
+    void headerNavigationTabsShouldHaveExactLabelsAndSizeTest() {
 
         mainPage.openPage()
                 .checkNavTabsSize(3)
@@ -55,7 +55,7 @@ public class TjSimpleTests extends TestBase {
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка появления окошка с уведомлениями")
-    void clickOnBellIconShouldOpenNotificationWindow() {
+    void clickOnBellIconShouldOpenNotificationWindowTest() {
 
         mainPage.openPage()
                 .notificationsWindowShouldNotBeVisible()
@@ -67,7 +67,7 @@ public class TjSimpleTests extends TestBase {
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка основных категорий на странице Потоки")
-    void flowsPageShouldHaveExpectedCategories() {
+    void flowsPageShouldHaveExpectedCategoriesTest() {
         String title = "Потоки";
         String paragraph = "Все темы, о которых мы пишем в журнале";
         String[] categories = new String[]{"Инвестиции", "Путешествия", "Эмиграция", "Что делать?",
