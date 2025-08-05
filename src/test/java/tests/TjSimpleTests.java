@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
 @Tag("tj_simple_tests")
+@Owner("dmitry_endo")
 @DisplayName("Тесты для сайта Т-Ж")
 public class TjSimpleTests extends TestBase {
 
@@ -16,7 +17,6 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
-    @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка новостной ленты на главной странице")
     void newsFeedShouldBeVisibleAndClickable() {
@@ -31,7 +31,6 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("modal-windows")
-    @Owner("dmitry_endo")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка появления модального окна входа в профиль")
     void loginModalWindowShouldAppear() {
@@ -44,7 +43,6 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
-    @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка названия и количества основных вкладок навигации в хедере")
     void headerNavigationTabsShouldHaveExactLabelsAndSize() {
@@ -56,7 +54,6 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("modal-windows")
-    @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка появления окошка с уведомлениями")
     void clickOnBellIconShouldOpenNotificationWindow() {
@@ -69,7 +66,6 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
-    @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка основных категорий на странице Потоки")
     void flowsPageShouldHaveExpectedCategories() {
