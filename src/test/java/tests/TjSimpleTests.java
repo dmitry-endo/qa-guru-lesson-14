@@ -15,6 +15,7 @@ public class TjSimpleTests extends TestBase {
     private final MainPage mainPage = new MainPage();
 
     @Test
+    @Tag("main-page")
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка новостной ленты на главной странице")
@@ -29,6 +30,7 @@ public class TjSimpleTests extends TestBase {
     }
 
     @Test
+    @Tag("modal-windows")
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка появления модального окна входа в профиль")
@@ -41,6 +43,7 @@ public class TjSimpleTests extends TestBase {
     }
 
     @Test
+    @Tag("main-page")
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка названия и количества основных вкладок навигации в хедере")
@@ -52,6 +55,7 @@ public class TjSimpleTests extends TestBase {
     }
 
     @Test
+    @Tag("modal-windows")
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка появления окошка с уведомлениями")
@@ -64,6 +68,7 @@ public class TjSimpleTests extends TestBase {
     }
 
     @Test
+    @Tag("main-page")
     @Owner("dmitry_endo")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка основных категорий на странице Потоки")
