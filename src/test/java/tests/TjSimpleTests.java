@@ -1,8 +1,6 @@
 package tests;
 
-import io.qameta.allure.Owner;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -10,6 +8,7 @@ import pages.MainPage;
 
 @Tag("tj_simple_tests")
 @Owner("dmitry_endo")
+@Feature("Главная страница")
 @DisplayName("Тесты для сайта Т-Ж")
 public class TjSimpleTests extends TestBase {
 
@@ -17,6 +16,7 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
+    @Story("Основной контент")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка новостной ленты на главной странице")
     void newsFeedShouldBeVisibleAndClickable() {
@@ -31,6 +31,7 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("modal-windows")
+    @Story("Модальные окна")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка появления модального окна входа в профиль")
     void loginModalWindowShouldAppear() {
@@ -43,6 +44,7 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
+    @Story("Основной контент")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка названия и количества основных вкладок навигации в хедере")
     void headerNavigationTabsShouldHaveExactLabelsAndSize() {
@@ -54,6 +56,7 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("modal-windows")
+    @Story("Модальные окна")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка появления окошка с уведомлениями")
     void clickOnBellIconShouldOpenNotificationWindow() {
@@ -66,6 +69,7 @@ public class TjSimpleTests extends TestBase {
 
     @Test
     @Tag("main-page")
+    @Story("Основной контент")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка основных категорий на странице Потоки")
     void flowsPageShouldHaveExpectedCategories() {
